@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello! I'm a passionate software engineer who loves building web apps with Python and Flask.</p>
+
+    <p>My interests include:</p>
+    <ul>
+        <li>Web Development (Flask, Django)</li>
+        <li>Blockchain and Web3</li>
+        <li>Machine Learning</li>
+        <li>Open Source Contribution</li>
+    </ul>
+
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>
